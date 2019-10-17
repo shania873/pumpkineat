@@ -23,7 +23,7 @@ var banner = [
   ' */',
   '\n'
 ].join('');
-
+//test
 gulp.task('css', function () {
     return gulp.src('src/scss/style.scss')
     .pipe(sourcemaps.init())
