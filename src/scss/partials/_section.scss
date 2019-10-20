@@ -14,6 +14,12 @@
   align-content: center;
   background-position: center -14px;
   background-repeat: no-repeat;
+  h1{
+    text-align: center;
+    color: $white;
+    font-size: 17px;
+    font-family: Helvetica, Arial;
+  }
 
   .container--center {
     margin-top: 70px;
@@ -22,7 +28,7 @@
       margin: auto;
 
       .img-logo{
-        // opacity: 0;
+      
       }
     }
 
@@ -62,8 +68,8 @@
 
 .page-diaporamaPotirons {
 
-  background-color: #772121;
-  color: #fff;
+  // background-color: #772121;
+  color: $white;
   text-align: center;
   background-size: 100% 100%;
   overflow: hidden;
@@ -91,10 +97,8 @@ text-transform: uppercase;
           position: relative;
 
           .carousel-text {
-            /* height: 30%; */
             display: block;
             position: relative;
-            /* bottom: -15px; */
             left: 0;
             width: 189px;
             right: 0;
@@ -147,33 +151,28 @@ text-transform: uppercase;
 
 .page-waste {
   box-sizing: border-box;
-  color: white;
+  color: $white;
   margin-top: 100px;
   margin-bottom: 100px;
 
   .container-waste {
     display: flex;
     align-items: center;
-    // height: 70vh;
-    // min-height: 70vh;
-    background: #f8a51d;
+    background: $orangeBg;
 
     .waste-column1 {
       display: flex;
       align-items: center;
 
-      .waste-text {
-        // padding: 127px;
+      .waste-text {   
         text-align: center;
-
         h3 {
-          font-family: BaskervilleBold; //
+          font-family: BaskervilleBold,Arial, Helvetica, sans-serif;
         }
 
         P {
           font-size: 16px;
-          margin-top: 30px;
-          /* background-color: white; */
+          margin-top: 30px;        
           line-height: 28px;
 
         }
@@ -185,17 +184,15 @@ text-transform: uppercase;
         float: right;
       }
     }
-  }
-
-  //
+  }  
 }
 
 .page-howworks {
   padding-top: 100px;
-  padding-bottom: 100px; //
+  padding-bottom: 100px; 
 
   .homeworks-title {
-    font-family: BaskervilleBold; //
+    font-family: BaskervilleBold,Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -207,7 +204,7 @@ text-transform: uppercase;
     padding-bottom: 20px;
 
     .step-number {
-      background: #f8a51d;
+      background: $orangeBg;
       display: inline-block;
       padding: 6px;
       border-radius: 50%;
@@ -216,9 +213,6 @@ text-transform: uppercase;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       font-size: 19px;
-      /* height: auto; */
-      /* max-width: 13%; */
-      /* width: 13%; */
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -226,12 +220,8 @@ text-transform: uppercase;
     .step-text {
       max-width: 250px;
       margin: auto;
-      font-size: 11px; ////
-
-
-    }
-
-    ////
+      font-size: 11px; 
+    } 
     .step-title {
       text-transform: uppercase;
       margin-top: 20px;
@@ -248,7 +238,7 @@ text-transform: uppercase;
     padding-bottom: 20px;
 
     .step-number {
-      background: #f8a51d;
+      background: $orangeBg;
       display: inline-block;
       padding: 6px;
       border-radius: 50%;
@@ -256,10 +246,7 @@ text-transform: uppercase;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
-      font-size: 19px;
-      /* height: auto; */
-      /* max-width: 13%; */
-      /* width: 13%; */
+      font-size: 19px; 
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -267,12 +254,8 @@ text-transform: uppercase;
     .step-text {
       max-width: 250px;
       margin: auto;
-      font-size: 11px; ////
-
-
-    }
-
-    ////
+      font-size: 11px; 
+    }  
     .step-title {
       text-transform: uppercase;
       margin-top: 20px;
@@ -289,7 +272,7 @@ text-transform: uppercase;
     padding-bottom: 20px;
 
     .step-number {
-      background: #f8a51d;
+      background: $orangeBg;
       display: inline-block;
       padding: 6px;
       border-radius: 50%;
@@ -298,9 +281,6 @@ text-transform: uppercase;
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       font-size: 19px;
-      /* height: auto; */
-      /* max-width: 13%; */
-      /* width: 13%; */
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -308,9 +288,7 @@ text-transform: uppercase;
     .step-text {
       max-width: 250px;
       margin: auto;
-      font-size: 11px; ////
-
-
+      font-size: 11px; 
     }
 
 
@@ -329,7 +307,7 @@ text-transform: uppercase;
   padding-top: 100px;
   padding-bottom: 100px;
   .instagramLatestWorks-title{
-    font-family: BaskervilleBold; //
+    font-family: BaskervilleBold,Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -351,14 +329,11 @@ text-transform: uppercase;
       margin-top: 10px;
       margin-bottom: 10px;
       background-size: cover;
-
-
-      //
       h3 {
         position: absolute;
         text-align: center;
         width: 100%;
-        color:white;
+        color:$white;
         margin: auto;
         align-items: center;
         left: 0;
@@ -386,8 +361,6 @@ text-transform: uppercase;
       margin-bottom: 10px;
       background-size: cover;
 
-
-      //
       h3 {
         position: absolute;
         text-align: center;
@@ -396,7 +369,7 @@ text-transform: uppercase;
         align-items: center;
         left: 0;
         right: 0;
-        color:white;
+        color:$white;
 
 
       }
@@ -420,9 +393,6 @@ text-transform: uppercase;
       margin-bottom: 10px;
       background-size: cover;
 
-
-
-      //
       h3 {
         position: absolute;
         text-align: center;
@@ -430,7 +400,7 @@ text-transform: uppercase;
         margin: auto;
         align-items: center;
         left: 0;
-        color:white;
+        color:$white;
         right: 0;//
 
       }
@@ -440,7 +410,6 @@ text-transform: uppercase;
 
 .page-map {
   padding-top: 150px;
-  // padding-bottom: 150px;
   #marker {
     background-image: url('/assets/img/marqueurGPS.png');
     background-size: cover;
@@ -452,7 +421,7 @@ text-transform: uppercase;
   .title-popup {
     color: #000;
     font-size: 25px;
-    font-family: BaskervilleBold;
+    font-family: BaskervilleBold,Arial, Helvetica, sans-serif;
   }
 
   .mapboxgl-popup-close-button {
@@ -466,13 +435,13 @@ text-transform: uppercase;
 
   .mapboxgl-popup-content {
     position: relative;
-    background: #f8a51d;
+    background: $orangeBg;
     border-radius: 3px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
     padding: 10px 10px 15px;
     pointer-events: auto;
     text-align: center;
-    color: #fff;
+    color: $white;
     padding: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -487,7 +456,7 @@ text-transform: uppercase;
   }
 }
 
-//
+
 .page-contact {
   h3 {
     font-family: 'Arial';
@@ -497,12 +466,12 @@ text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    color: #7a786d;
+    color: $colorfontContact;
   }
 
   .title-coordonnee {
     margin-bottom: 45px;
-    color: #7a786d;
+    color: $colorfontContact;
     text-transform: uppercase;
     font-size: 18px;
     max-width: 90%;
@@ -517,16 +486,14 @@ text-transform: uppercase;
   }
 
   .form-control {
-    background: #eeeeee;
+    background: $bgcolorcontact;
     line-height: 17px;
     display: inline-block;
-    //height: 38px;
-
     border-radius: 0px !important;
     border: 0px;
     font-family: Arial !important;
     letter-spacing: 0.5px;
-    color: #aba1a3;
+    color: $fontcolorContactForm;
     -webkit-border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     -ms-border-radius: 0px !important;

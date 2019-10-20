@@ -36,7 +36,7 @@
         document.getElementById("p-footer3").innerText = DBPosts.posts[2].Description_Recette;
       }
     };
-    xmlhttp.open("GET", "../assets/json/posts.json", true);
+    xmlhttp.open("GET", "http://carolinevanaerschot.be/pumpkineat/assets/json/posts.json", true);
     xmlhttp.send();
 
   }
@@ -51,16 +51,19 @@
     var oOutput = document.getElementById("output");
     var oData = new FormData(form);
 
-    btn.addEventListener("click", function loadDoc(ev) {
-      console.log(email.value)
+    btn.addEventListener("click", function loadDoc(ev) {   
+      console.log(email.value);
+
       if (!email.checkValidity()) {
         email.style.border = "solid 3px #ad0000";
         oOutput.innerHTML = "Votre e-mail est requis";
       } else {
+        oOutput.innerHTML = "";
         email.setCustomValidity("");
         var oReq = new XMLHttpRequest();
         oReq.open("POST", "http://carolinevanaerschot.be/pumpkineat/assets/php/contact.php", true);
         email.style.border = "solid 0px #ad0000";
+        var oData = new FormData(form);
         oReq.onload = function (oEvent) {
           if (oReq.status == 200) {
             oOutput.innerHTML = oReq.response;
@@ -97,7 +100,7 @@
         offsetX: 11150
       })
       .setLngLat(monument)
-      .setHTML("<h1 class='title-popup'>We are Open</h1><h2> 7 DAYS A WEEK</h2><p style='font-size: 15px;'>Le restaurant et situé au Rue du Marché aux Fromages 15, 1000 Bruxelles. Ouvert tous les jours sauf le dimanche</p>")
+      .setHTML("<h1 class='title-popup'>Ouvert</h1><h2> 7 JOURS SUR 7</h2><p style='font-size: 15px;'>Le restaurant et situé au Rue du Marché aux Fromages 15, 1000 Bruxelles. Ouvert tous les jours</p>")
       .remove(true)
       .addTo(map);
 
@@ -121,15 +124,10 @@
   }
 
   function scrollreveal() {
-    // GENERAL SETTING
+
     window.sr = ScrollReveal({
       reset: true
-    });
-
-    // Custom Settings
-    // sr.reveal('.img-logo', {
-    //   duration: 200
-    // });
+    }); 
 
     sr.reveal('.foo-2', {
       origin: 'right',

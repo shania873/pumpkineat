@@ -1,30 +1,37 @@
-footer { 
-  color: white;
-    .row{
-        margin: 0;
-    }
+footer {
+  color: $white;
+
+  .row {
+    margin: 0;
+  }
+
   .container-footer1 {
-    background-color: #222;
+    background-color: $footer1BGcolor;
     padding: 0;
     padding-top: 70px;
     padding-bottom: 70px;
+
     .columns1-footer {
       padding-left: 50px;
       padding-right: 50px;
+
       .columns-img {
         position: relative;
+
         img {
           max-width: 98px;
         }
       }
+
       .columns-img:before {
-        color: #fff;
-        content: "______";      
+        color: $white;
+        content: "______";
         height: 15px;
         margin-top: auto;
       }
+
       p {
-        color: #808080;
+        color: $colorfooter;
         line-height: 19px;
       }
     }
@@ -41,13 +48,13 @@ footer {
       }
 
       p {
-        color: #808080;
+        color: $colorfooter;
         line-height: 19px;
         font-size: 12px;
       }
 
       p:last-child {
-        color: white;
+        color: $white;
       }
     }
 
@@ -55,14 +62,16 @@ footer {
       padding-top: 50px;
       padding-left: 50px;
       padding-right: 50px;
-      a{
-        color: white!important;
+
+      a {
+        color: $white !important;
         text-decoration: none;
       }
-      a:hover{
-        color: #808080!important;
+
+      a:hover {
+        color: $colorfooter !important;
       }
-      
+
       h4 {
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -70,21 +79,19 @@ footer {
       }
 
       p {
-        color: #808080;
+        color: $colorfooter;
         line-height: 19px;
         font-size: 10px;
-            /* overflow-wrap: normal; */
         height: 35px;
         text-overflow: ellipsis;
         overflow: hidden;
         width: 200px;
-        /* height: 1.2em; */
         white-space: nowrap;
       }
 
       p:after {
         content: '__________________________';
-        color: white;
+        color: $white;
         display: block; //
       }
 
@@ -95,30 +102,31 @@ footer {
     padding-top: 50px;
     padding-bottom: 10px;
     text-align: center;
-    color: #141313;
-    ul{
-        display: inline-block;
-        padding: 0;
-        li{         
-            display: inline-block;
+    color: $fontcolorfooter2;
 
-            img{
-                max-width: 25px;
-            }
+    ul {
+      display: inline-block;
+      padding: 0;
+
+      li {
+        display: inline-block;
+
+        img {
+          max-width: 25px;
         }
+      }
     }
-    .year{
+
+    .title-footer2 {
+      margin-top: 6px;
+      font-size: 8px;
+      letter-spacing: 1px;
+      font-weight: bold;
     }
-    .title-footer2{     
-        margin-top: 6px;
-        font-size: 8px;
-        letter-spacing: 1px;
-        font-weight: bold;
-    }
-    .year:before{//
-        content:'©';   
+
+    .year:before {
+      //
+      content: '©';
     }
   }
-
-
 }

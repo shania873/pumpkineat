@@ -8,9 +8,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- GOOGLE ANALYTICS LIEN -->
+  <link href="https://www.google-analytics.com" rel="dns-prefetch">
+  <link href="https://ajax.googleapis.com" rel="dns-prefetch">
 
-  <link href="//www.google-analytics.com" rel="dns-prefetch">
-  <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
   <link href="assets/css/style.min.css" rel="stylesheet">
 
   <script src="assets/components/modernizr/modernizr.js"></script>
@@ -45,9 +47,7 @@
                 </li>
                 <li class="nav-item mr-1">
                   <a href="#diaporama" class="nav-link">Nos Variétées</a>
-                </li>
-              
-     
+                </li>        
                 <li class="nav-item mr-1">
                   <a href="#map-link" class="nav-link">Localisation</a>
                 </li>
@@ -59,14 +59,14 @@
           </div>
         </nav>
     </header>
-  
-
   <!-- SECTION INTRO  -->
   <section class="page-intro" id="intro">
     <div class="container container--center">
-      <div class="intro-logo col-md-6">
-        <img src="assets/img/logo.png" alt="logo" class="img-fluid img-logo">
+      <div class="intro-logo col-md-10">
+        <img src="assets/img/logo.png" alt="logo" class="img-fluid img-logo">        
+        <h1>Restaurant of pumpkins</h1>
       </div>
+
     </div>
   </section>
   <!-- SECTION OUR STORY -->
@@ -88,7 +88,6 @@
               potagers purement biologique les saveurs restent, et le gout est indescriptible.</p>
               <p class="ourstory-paragraph">
               Le restaurant "Pumpkin Eat" a obtenu son étoile Michelin après cinq mois d’ouverture en 2013 et l’a conservé depuis.</p>
-
             </p>
           </div>
         </div>
@@ -98,47 +97,41 @@
   <!-- SECTION DIAPORAMMA -->
   <section class="page-diaporamaPotirons" id="diaporama">
     <div class="container-fluid mr-0 ml-0 pl-0 pr-0">
-      <h2 class="diaporamaPotirons-title">NOS variétées de potirons</h2>
-      <div class="carousel diaporamaPotirons-carousel slide" data-ride="carousel">
+      <h2 class="diaporamaPotirons-title">Nos variétées de potirons</h2>
+      <div class="carousel diaporamaPotirons-carousel slide" data-ride="carousel" id="carousel">
         <div class="carousel-inner col-md-6 mr-auto ml-auto">
           <div class="carousel-item active">
             <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo1.png"
                 alt="Carousel-Img1"></div>
-
             <div class="carousel-text">
-              <h3>Potiron italien</h3>
-              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+              <h3>Potiron italien</h3>           
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo2.png"
                 alt="Carousel-Img2"></div>
             <div class="carousel-text">
-              <h3>Potiron bleu d'hongrie</h3>
-              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+              <h3>Potiron bleu d'hongrie</h3>           
             </div>
           </div>
           <div class="carousel-item">
             <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo3.png"
                 alt="Carousel-Img3"></div>
             <div class="carousel-text">
-              <h3>Potiron classique</h3>
-              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+              <h3>Potiron classique</h3>          
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <a class="carousel-control-prev" href="#carousel" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
+      <a class="carousel-control-next" href="#carousel" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
-
     </div>
     </div>
   </section>
-
   <!-- SECTION WASTE -->
   <section class="page-waste" id="waste">
     <div class="container-waste">
@@ -190,7 +183,7 @@
   <!-- SECTION LATESTWORKS -->
   <section class="page-instagramLatestWorks" id="instagram">
     <div class="container">
-      <h3 class="instagramLatestWorks-title">lastet from instagram</h3>
+      <h3 class="instagramLatestWorks-title">Derniers posts d'instagram</h3>
       <div class="row posts-instagramLatestWorks">
         <div class="col-sm-4 col-xs-12 instagramLatestWorks-Post1">
           <a href="#" target="_blank">
@@ -234,32 +227,25 @@
             <h4 class="title-coordonnee">Vous avez une question ? Vous voulez me joindre ?</h4>
 
 
-            <p class=" adress-coordonnee">29 rue de la clergerie, 7830 Silly</p>
-            <p class=" email-coordonnee">vanaeca@hotmail.com</p>
+            <p class=" adress-coordonnee">Rue du Marché aux Fromages 15, 1000 Bruxelles</p>
+            <p class=" email-coordonnee">pumpkineat@pumpkineat.com</p>
             <p class="  tel-coordonnee">0472/28.81.98</p>
           </div>
           <div class="col-lg-6 col-sm-5 contact-column2">
 
             <form id="form" action name="form" method="post">
               <div class="input-group input-group-lg mb-3">
-                <input type="text" class="form-control" placeholder="Nom" id="nom" name="nom" required>
-             
+                <input type="text" class="form-control" placeholder="Nom" id="nom" name="nom" required>             
               </div>
               <div class="input-group input-group-lg mb-3">
-                <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" required>
-             
+                <input type="text" class="form-control" placeholder="Téléphone" id="phone" name="phone" required>             
               </div>
-
               <div class="input-group input-group-lg mb-3">
-                <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
-               
+                <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>               
               </div>
-
               <div class="input-group input-group-lg mb-3">
-                <textarea class="form-control" placeholder="Message" rows="5" id="message" name="message" required></textarea>
-             
+                <textarea class="form-control" placeholder="Message" rows="5" id="message" name="message" required></textarea>             
               </div>
-
               <a value="Envoyer" class="btn-contact" id="envoyer">ENVOYER</a>
               <div id="output"></div>
             </form>
@@ -285,11 +271,11 @@
             <h4>Contact</h4>
             <p>Rue du Marché aux Fromages 15, 1000 Bruxelles</p>
             <p>info@outlook.com</p>
-            <p>0472288198</p>
+            <p>T / +32 224 10 80 95</p>
             <p>www.PumpkinsEat.com</p>
           </div>
           <div class="col-sm-4 columns3-footer columns-footer">
-            <h4>Latest posts</h4>
+            <h4>Derniers posts</h4>
             <div class="post">
               <a href="#" target="_blank" id="link-footer1">
                 <h5 id="footer-title1"></h5>
@@ -316,9 +302,9 @@
     <div class="scrollup" href="#top"><i class="fas fa-arrow-up"></i></div>
     <div class="container-footer2 container-fluid">
       <ul>
-        <li class="logoSociaux-footer"><img src="assets/img/facebook.svg" alt="facebook" class="img-fluid"></li>
-        <li class="logoSociaux-footer"><img src="assets/img/twitter.svg" alt="twitter" class="img-fluid"></li>
-        <li class="logoSociaux-footer"><img src="assets/img/instagram.svg" alt="instagram" class="img-fluid"></li>
+        <li class="logoSociaux-footer"><a href="https://www.facebook.com" target="_blank"><img src="assets/img/facebook.svg" alt="facebook" class="img-fluid"></a></li>
+        <li class="logoSociaux-footer"><a href="https://www.twitter.com" target="_blank"><img src="assets/img/twitter.svg" alt="twitter" class="img-fluid"></a></li>
+        <li class="logoSociaux-footer"><a href="https://www.instagram.com" target="_blank"><img src="assets/img/instagram.svg" alt="instagram" class="img-fluid"></a></li>
       </ul>
       <p class="title-footer2"> <span class="year">2019</span> PUMPKINS EAT</p>
     </div>
@@ -330,9 +316,9 @@
   <script src="assets/js/scripts.min.js"></script>
 
 
-  <!-- Google Analytics-->
-  <script>
-    (function (b, o, i, l, e, r) {
+  <!-- Ce sont les codes pour Google analytiques, il manque juste l'id à mettre ..-->
+  <!-- <script>
+    (function (o,i,r,b,l,e) {
       b.GoogleAnalyticsObject = l;
       b[l] || (b[l] =
         function () {
@@ -341,12 +327,12 @@
       b[l].l = +new Date;
       e = o.createElement(i);
       r = o.getElementsByTagName(i)[0];
-      e.src = '//www.google-analytics.com/analytics.js';
+      e.src = 'https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e, r)
     }(window, document, 'script', 'ga'));
     ga('create', 'UA-XXXXX-X');
     ga('send', 'pageview');
-  </script>
+  </script> -->
 
 </body>
 

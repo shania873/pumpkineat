@@ -1,7 +1,7 @@
 header {
     margin-top: 80px; 
     padding-top: 10px;
-    border-top:1px solid white;
+    border-top:1px solid $white;
     z-index: 4444;
     position: absolute;
     width: 100%; 
@@ -15,19 +15,15 @@ header {
       background-size: 100% 100%;
       i{
         font-size: 25px;
-        color: white;
+        color: $white;
     }
   }
    
-  
-  //
-    
-
     ul{
       li{
         a{
           text-transform: uppercase;
-          color: white;
+          color: $white;
           font-size: 13px;
           letter-spacing: 1px;
         }
