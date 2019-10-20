@@ -1,19 +1,45 @@
 @media only screen and (min-width:320px) {
-
+    .page-waste .container-waste {
+        background: #f8a51d;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 @media only screen and (min-width:480px) {
 
 }
 @media only screen and (min-width:768px) {
+    .page-waste .container-waste {
+        background: #f8a51d;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
 }
 @media only screen and (min-width:1024px) {
-
+    .waste-text {
+        padding: 59px;
+    
+    }
+    .page-waste .container-waste {
+        height: 70vh; 
+        min-height: 70vh; 
+       background: #f8a51d;
+   }
 }
 @media only screen and (min-width:1140px) {
 
 }
 @media only screen and (min-width:1280px) {
+    .page-waste .container-waste {
+         height: 70vh; 
+        min-height: 70vh; 
+        background: #f8a51d;
+    }
+
+    .waste-text{
+        padding: 127px;
+    }
 
 }
 @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {

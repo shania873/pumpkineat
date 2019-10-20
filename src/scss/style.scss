@@ -22,6 +22,7 @@
 @import 'partials/_sidebar.scss';
 @import 'partials/_main.scss';
 @import 'partials/_footer.scss';
+@import 'partials/_section.scss';
 
 //----------------------------------*\
 // OBJECTS & MODULES
@@ -43,3 +44,4 @@
 //----------------------------------*/
 
 @import 'vendor/_external.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

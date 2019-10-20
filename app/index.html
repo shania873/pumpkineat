@@ -1,45 +1,353 @@
 <!doctype html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>Index</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>Index</title>
 
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
-    <link href="//ajax.googleapis.com" rel="dns-prefetch">
-    <link href="assets/css/style.min.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <script src="assets/components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
+  <link href="//www.google-analytics.com" rel="dns-prefetch">
+  <link href="//ajax.googleapis.com" rel="dns-prefetch">
+  <link href="assets/css/style.min.css" rel="stylesheet">
 
-    <header class="header" role="banner">
+  <script src="assets/components/modernizr/modernizr.js"></script>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- MAPBOX -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body class="page">
+
+  <!-- HEADER -->
+  <header id="top" class="page-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-md" id="main-nav">
+          <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto ml-auto" id="liens">
+                <li class="nav-item mr-1">
+                  <a href="#top" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a href="#story" class="nav-link">Notre Histoire</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a href="#diaporama" class="nav-link">Nos Variétées</a>
+                </li>
+              
      
+                <li class="nav-item mr-1">
+                  <a href="#map-link" class="nav-link">Localisation</a>
+                </li>
+                <li class="nav-item mr-1">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     </header>
+  
 
-    <main class="main" role="main">
+  <!-- SECTION INTRO  -->
+  <section class="page-intro" id="intro">
+    <div class="container container--center">
+      <div class="intro-logo col-md-6">
+        <img src="assets/img/logo.png" alt="logo" class="img-fluid img-logo">
+      </div>
+    </div>
+  </section>
+  <!-- SECTION OUR STORY -->
+  <section class="page-ourstory" id="story">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 ourstory-column1"><img src="assets/img/PotironLayout-SectionIntro-BgImg.png"
+            alt="SectionIntro-BgImg" class="img-fluid img-sectionintro"></div>
+        <div class="col-sm-6 ourstory-column2">
+          <div class="ourstory-text">
+            <h2 class="ourstory-title">NOTRE HISTOIRE</h2>
+            <p class="ourstory-paragraph">
+              Caroline van Aerschot, chef depuis ses 27 ans dans un restaurant très célèbre appelé «HOT SPECY
+              RESTAURANT», est très appréciée pour ses plats traditionnels à base de légumes,
+              voulant innover avec un menu dégustation unique.</p>
+              <p class="ourstory-paragraph">
+              C'est à base de ça que Pumpkin's eat a vu le jour
+              Le but de ce restaurant et de vous offrir un repas condensée dans un potiron, ceuilli dans l'un de nos
+              potagers purement biologique les saveurs restent, et le gout est indescriptible.</p>
+              <p class="ourstory-paragraph">
+              Le restaurant "Pumpkin Eat" a obtenu son étoile Michelin après cinq mois d’ouverture en 2013 et l’a conservé depuis.</p>
 
-    </main>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION DIAPORAMMA -->
+  <section class="page-diaporamaPotirons" id="diaporama">
+    <div class="container-fluid mr-0 ml-0 pl-0 pr-0">
+      <h2 class="diaporamaPotirons-title">NOS variétées de potirons</h2>
+      <div class="carousel diaporamaPotirons-carousel slide" data-ride="carousel">
+        <div class="carousel-inner col-md-6 mr-auto ml-auto">
+          <div class="carousel-item active">
+            <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo1.png"
+                alt="Carousel-Img1"></div>
 
-    <footer class="footer" role="contentinfo">
+            <div class="carousel-text">
+              <h3>Potiron italien</h3>
+              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo2.png"
+                alt="Carousel-Img2"></div>
+            <div class="carousel-text">
+              <h3>Potiron bleu d'hongrie</h3>
+              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-img"> <img class="img-fluid" src="assets/img/SectionDiapo_Diapo3.png"
+                alt="Carousel-Img3"></div>
+            <div class="carousel-text">
+              <h3>Potiron classique</h3>
+              <!-- <p>aecat cupidatat non , qui dolorem ipsum quia dolor sit amet, </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
 
-    </footer>
+    </div>
+    </div>
+  </section>
 
-    <script src="assets/components/jquery/jquery.min.js"></script>
-    <script src="assets/js/scripts.min.js"></script>
+  <!-- SECTION WASTE -->
+  <section class="page-waste" id="waste">
+    <div class="container-waste">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="waste-column1 col-md-6 col-sm-12 col-xs-12">
+            <div class="waste-text">
+              <h2 class="title-waste">PAS SI VITE!</h2>
+              <p>
+                Vous avez passée une bonne soirée ? Vous avez payée l'addition ? Pas si vite ! Le chef reprendra votre
+                potiron pour vous faire une bonne soupe à emporter, avec les saveurs de votre repas vous aurez une soupe
+                bien meilleure que toutes les autres et vous vous en souviendrez !
+              </p>
+            </div>
+          </div>
+          <div class="waste-column2 col-md-6 col-sm-12 col-xs-12 pr-0">
+            <img src="assets/img/PotironLayout-Waste-ImgBg.png" alt="PotironLayout-Waste-ImgBg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION HOWWORKS -->
+  <section class="page-howworks" id="howorks">
+    <div class="container">
+      <h3 class="homeworks-title">Comment ça marche ?</h3>
+      <div class="row">
+        <div class="col-sm-4 homework-step1">
+          <span class="step-number">1</span>
+          <h3 class="step-title">Venez !</h3>
+          <p class="step-text">Le restaurant et situé au Rue du Marché aux Fromages 15, 1000 Bruxelles on vous attend!
+          </p>
+        </div>
+        <div class="col-sm-4 homework-step2">
+          <span class="step-number">2</span>
+          <h3 class="step-title">Choissisez !</h3>
+          <p class="step-text">Avec nos variétés de potirons et nos menus, vous avez l'embarras du choix!
+          </p>
+        </div>
+        <div class="col-sm-4 homework-step3">
+          <span class="step-number">3</span>
+          <h3 class="step-title">Repartez avec votre soupe !</h3>
+          <p class="step-text">Une petite soupe pour le lendemain avant votre souper ? Vous êtes servis !
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION LATESTWORKS -->
+  <section class="page-instagramLatestWorks" id="instagram">
+    <div class="container">
+      <h3 class="instagramLatestWorks-title">lastet from instagram</h3>
+      <div class="row posts-instagramLatestWorks">
+        <div class="col-sm-4 col-xs-12 instagramLatestWorks-Post1">
+          <a href="#" target="_blank">
+            <div class="img-post img-post1" id="img1">
+              <h3 class="title-post title-post1" id="title1"></h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 col-xs-12 instagramLatestWorks-Post2">
+          <a href="#" target="_blank">
+            <div class="img-post2 img-post" id="img2">
+              <h3 class="title-post2 title-post" id="title2"></h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 col-xs-12 instagramLatestWorks-Post3">
+          <a href="#" target="_blank">
+            <div class="img-post3 img-post" id="img3">
+              <h3 class="title-post3 title-post" id="title3"></h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+  <!-- SECTION MAP -->
 
-  </body>
+  <section class="page-map" id="map-link">
+    <div id='map' style='width: 100%; height: 385px;'></div>
+  </section>
+
+  <!-- SECTION CONTACT -->
+
+  <section class="page-contact" id="contact">
+    <div id="contact" class="py-5">
+      <h3>Contactez-nous</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-7 contact-column1 coordonnee">
+            <h4 class="title-coordonnee">Vous avez une question ? Vous voulez me joindre ?</h4>
+
+
+            <p class=" adress-coordonnee">29 rue de la clergerie, 7830 Silly</p>
+            <p class=" email-coordonnee">vanaeca@hotmail.com</p>
+            <p class="  tel-coordonnee">0472/28.81.98</p>
+          </div>
+          <div class="col-lg-6 col-sm-5 contact-column2">
+
+            <form id="form" action name="form" method="post">
+              <div class="input-group input-group-lg mb-3">
+                <input type="text" class="form-control" placeholder="Nom" id="nom" name="nom" required>
+             
+              </div>
+              <div class="input-group input-group-lg mb-3">
+                <input type="text" class="form-control" placeholder="Phone" id="phone" name="phone" required>
+             
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+               
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <textarea class="form-control" placeholder="Message" rows="5" id="message" name="message" required></textarea>
+             
+              </div>
+
+              <a value="Envoyer" class="btn-contact" id="envoyer">ENVOYER</a>
+              <div id="output"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="page_footer" role="contentinfo">
+    <div class="container-footer1 container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 columns1-footer columns-footer">
+            <div class="columns-img"><img src="assets/img/logo.png" alt="logo" class="img-fluid"></div>
+            <p>Avec leurs cuisine artisanale hors du commun, venez manger votre repas condensé dans un potiron pour
+              gouter a des milliards de saveurs différentes.</p>
+          </div>
+          <div class="col-sm-4 columns2-footer columns-footer">
+            <h4>Contact</h4>
+            <p>Rue du Marché aux Fromages 15, 1000 Bruxelles</p>
+            <p>info@outlook.com</p>
+            <p>0472288198</p>
+            <p>www.PumpkinsEat.com</p>
+          </div>
+          <div class="col-sm-4 columns3-footer columns-footer">
+            <h4>Latest posts</h4>
+            <div class="post">
+              <a href="#" target="_blank" id="link-footer1">
+                <h5 id="footer-title1"></h5>
+              </a>
+              <p id="p-footer1"></p>
+            </div>
+            <div class="post">
+              <a href="#" target="_blank" id="link-footer2">
+                <h5 id="footer-title2"></h5>
+              </a>
+              <p id="p-footer2"></p>
+            </div>
+            <div class="post">
+              <a href="#" target="_blank" id="link-footer3">
+                <h5 id="footer-title3"></h5>
+              </a>
+              <p id="p-footer3"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="scrollup" href="#top"><i class="fas fa-arrow-up"></i></div>
+    <div class="container-footer2 container-fluid">
+      <ul>
+        <li class="logoSociaux-footer"><img src="assets/img/facebook.svg" alt="facebook" class="img-fluid"></li>
+        <li class="logoSociaux-footer"><img src="assets/img/twitter.svg" alt="twitter" class="img-fluid"></li>
+        <li class="logoSociaux-footer"><img src="assets/img/instagram.svg" alt="instagram" class="img-fluid"></li>
+      </ul>
+      <p class="title-footer2"> <span class="year">2019</span> PUMPKINS EAT</p>
+    </div>
+  </footer>
+
+  <script src="assets/components/jquery/jquery.min.js"></script>
+  <script src="assets/components/bootstrap/bootstrap.js"></script>
+  <script src="assets/components/scrollreveal/scrollreveal.js"></script>
+  <script src="assets/js/scripts.min.js"></script>
+
+
+  <!-- Google Analytics-->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
 </html>

@@ -1,0 +1,535 @@
+.page-intro {
+  background: url(../img/PotironLayout-Header-BgImg.png);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-position: center -14px;
+  background-repeat: no-repeat;
+
+  .container--center {
+    margin-top: 70px;
+
+    .intro-logo {
+      margin: auto;
+
+      .img-logo{
+        // opacity: 0;
+      }
+    }
+
+  }
+}
+
+.page-ourstory {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .container {
+    .row {
+      .ourstory-column2 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        background-position: center -14px;
+        background-repeat: no-repeat;
+
+        .ourstory-text {
+          .ourstory-title {}
+
+          .ourstory-paragraph {
+            font-size: 14px;
+            margin-top: 30px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+.page-diaporamaPotirons {
+
+  background-color: #772121;
+  color: #fff;
+  text-align: center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  background: url(../img/mini-potiron-farci.png);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+  .container-fluid {
+    .diaporamaPotirons-title {
+text-transform: uppercase;
+      text-align: center;
+    }
+
+    .diaporamaPotirons-carousel {
+      position: relative;
+      top: 34px;
+
+      .carousel-inner {
+        position: relative;
+        margin: auto !important;
+
+        .carousel-item {
+          height: 280px;
+          position: relative;
+
+          .carousel-text {
+            /* height: 30%; */
+            display: block;
+            position: relative;
+            /* bottom: -15px; */
+            left: 0;
+            width: 189px;
+            right: 0;
+            margin: auto;
+            h3{
+              margin-top: 20px;
+            }
+          }
+
+          .carousel-img {
+            min-height: 70%;
+            position: relative;
+            width: 25%;
+            max-width: 25%;
+            margin: auto;
+
+            img {
+              position: absolute;
+              top: 0;
+              min-width: 70%;
+              display: block;
+              text-align: center;
+              margin: auto;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              width: 125px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-diaporamaPotirons::before {
+  content: url('../img/dechirure-haut.png');
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: -20px;
+}
+
+.page-diaporamaPotirons::after {
+  content: url('../img/dechirure-bas.png');
+  display: inline-block;
+  position: relative;
+  bottom: -20px;
+}
+
+.page-waste {
+  box-sizing: border-box;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .container-waste {
+    display: flex;
+    align-items: center;
+    // height: 70vh;
+    // min-height: 70vh;
+    background: #f8a51d;
+
+    .waste-column1 {
+      display: flex;
+      align-items: center;
+
+      .waste-text {
+        // padding: 127px;
+        text-align: center;
+
+        h3 {
+          font-family: BaskervilleBold; //
+        }
+
+        P {
+          font-size: 16px;
+          margin-top: 30px;
+          /* background-color: white; */
+          line-height: 28px;
+
+        }
+      }
+    }
+
+    .waste-column2 {
+      img {
+        float: right;
+      }
+    }
+  }
+
+  //
+}
+
+.page-howworks {
+  padding-top: 100px;
+  padding-bottom: 100px; //
+
+  .homeworks-title {
+    font-family: BaskervilleBold; //
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .homework-step1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .step-number {
+      background: #f8a51d;
+      display: inline-block;
+      padding: 6px;
+      border-radius: 50%;
+      -webkit-border-radius: 70%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      font-size: 19px;
+      /* height: auto; */
+      /* max-width: 13%; */
+      /* width: 13%; */
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .step-text {
+      max-width: 250px;
+      margin: auto;
+      font-size: 11px; ////
+
+
+    }
+
+    ////
+    .step-title {
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+  }
+
+  .homework-step2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .step-number {
+      background: #f8a51d;
+      display: inline-block;
+      padding: 6px;
+      border-radius: 50%;
+      -webkit-border-radius: 70%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      font-size: 19px;
+      /* height: auto; */
+      /* max-width: 13%; */
+      /* width: 13%; */
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .step-text {
+      max-width: 250px;
+      margin: auto;
+      font-size: 11px; ////
+
+
+    }
+
+    ////
+    .step-title {
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+  }
+
+  .homework-step3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .step-number {
+      background: #f8a51d;
+      display: inline-block;
+      padding: 6px;
+      border-radius: 50%;
+      -webkit-border-radius: 70%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      font-size: 19px;
+      /* height: auto; */
+      /* max-width: 13%; */
+      /* width: 13%; */
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .step-text {
+      max-width: 250px;
+      margin: auto;
+      font-size: 11px; ////
+
+
+    }
+
+
+    .step-title {
+      text-transform: uppercase;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+  }
+}
+
+.page-instagramLatestWorks {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .instagramLatestWorks-title{
+    font-family: BaskervilleBold; //
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .instagramLatestWorks-Post1 {
+
+
+    .img-post {
+      max-width: 230px;
+      width: 325px;
+      height: 325px;
+      max-height: 230px;
+      position: relative;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-size: cover;
+
+
+      //
+      h3 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        color:white;
+        margin: auto;
+        align-items: center;
+        left: 0;
+        right: 0;
+
+
+      }
+    }
+  }
+
+  .instagramLatestWorks-Post2 {
+
+
+    .img-post {
+      max-width: 230px;
+      width: 325px;
+      height: 325px;
+      max-height: 230px;
+      position: relative;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-size: cover;
+
+
+      //
+      h3 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        left: 0;
+        right: 0;
+        color:white;
+
+
+      }
+    }
+  }
+
+  .instagramLatestWorks-Post3 {
+
+
+    .img-post {
+      max-width: 230px;
+      width: 325px;
+      height: 325px;
+      max-height: 230px;
+      position: relative;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-size: cover;
+
+
+
+      //
+      h3 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        left: 0;
+        color:white;
+        right: 0;//
+
+      }
+    }
+  }
+}
+
+.page-map {
+  padding-top: 150px;
+  // padding-bottom: 150px;
+  #marker {
+    background-image: url('/assets/img/marqueurGPS.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }   
+  .title-popup {
+    color: #000;
+    font-size: 25px;
+    font-family: BaskervilleBold;
+  }
+
+  .mapboxgl-popup-close-button {
+    display: none;
+  }
+
+  .mapboxgl-ctrl-bottom-left,
+  .mapboxgl-ctrl-bottom-right {
+    display: none !important;
+  }
+
+  .mapboxgl-popup-content {
+    position: relative;
+    background: #f8a51d;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    padding: 10px 10px 15px;
+    pointer-events: auto;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h2 {
+      font-family: Arial;
+      font-size: 24px;
+      margin-top: 12px;
+      margin-bottom: 4px;
+
+    }
+  }
+}
+
+//
+.page-contact {
+  h3 {
+    font-family: 'Arial';
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 76px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #7a786d;
+  }
+
+  .title-coordonnee {
+    margin-bottom: 45px;
+    color: #7a786d;
+    text-transform: uppercase;
+    font-size: 18px;
+    max-width: 90%;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 29px;
+    margin: 0;
+  }
+
+  .form-control {
+    background: #eeeeee;
+    line-height: 17px;
+    display: inline-block;
+    //height: 38px;
+
+    border-radius: 0px !important;
+    border: 0px;
+    font-family: Arial !important;
+    letter-spacing: 0.5px;
+    color: #aba1a3;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+  }
+}

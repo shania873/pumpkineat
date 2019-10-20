@@ -1,10 +1,19 @@
 @font-face {
-  font-family: 'Font-Name';
-  src: url('../fonts/font-name.eot');
-  src: url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/font-name.woff') format('woff'),
-       url('../fonts/font-name.ttf') format('truetype'),
-       url('../fonts/font-name.svg#font-name') format('svg');
+  font-family: 'BaskervilleBold';
+  src: url('../fonts/LibreBaskerville-Bold.woff2') format('woff2'),
+      url('../fonts/LibreBaskerville-Bold.woff') format('woff'),
+      url('../fonts/LibreBaskerville-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BaskervilleRegular';
+  src: url('../fonts/LibreBaskerville-Regular.woff2') format('woff2'),
+      url('../fonts/LibreBaskerville-Regular.woff') format('woff'),
+      url('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+

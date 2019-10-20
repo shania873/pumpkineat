@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "Titre": "Gratin de potiron",
+      "Description_Recette": "Il vous reste un morceau de potiron et quelques pommes de terre dans votre garde-manger et vous ne savez pas comment les accommoder ? Préparez un délicieux gratin de potiron et pommes de terre en un tour de main ! Parfumées avec quelques feuilles de basilic et cuites dans la crème liquide, les lamelles de pommes de terre et de potiron seront savoureuses et bien fondantes.",
+      "img": "assets/img/gratin_potiron.png",
+      "url": "https://www.marmiton.org/recettes/recette_gratin-de-potiron-avec-astuce-pour-eviter-qu-il-rende-trop-d-eau_52778.aspx"
+    },
+    {
+      "id": 2,
+      "Titre": "Crumble au potiron",
+      "Description_Recette": "Revisitez le crumble en version salée avec cette recette à base de potiron et de parmesan. Servi en guise de plat principal, accompagné de viande ou de volaille, il va faire des émules à table !",
+      "img": "assets/img/crumble-de-potiron.png",
+      "url": "https://www.cuisineaz.com/recettes/crumble-de-potiron-au-parmesan-50178.aspx"
+    },
+    {
+      "id": 3,
+      "Titre": "Gaufres Potirons",
+      "Description_Recette": "Selon nos informations, cette recette est compatible avec le régime suivant : végétarien",
+      "img": "assets/img/gaufre_potiron.png",
+      "url": "https://www.marmiton.org/recettes/recette_gaufres-au-potiron_13243.aspx"
+    }
+  ]
+}
