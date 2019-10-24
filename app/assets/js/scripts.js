@@ -250,10 +250,10 @@
       $(window).scroll(function () {
         if ($(this).scrollTop() > 400) {
           $('.scrollup').fadeIn();
-          console.log("ok");
+          // console.log("ok");
         } else {
           $('.scrollup').fadeOut();
-          console.log("nook");
+          // console.log("nook");
         }
       });
 
